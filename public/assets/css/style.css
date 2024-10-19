@@ -1,0 +1,74 @@
+/* add resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* create variables for primary and seconary colors*/
+:root {
+    --primary-color: #f26a2e;
+    --secondary-color: #f7f7f7;
+    --warning-color: #f2a154;
+}
+
+/* create global styles */
+body,html {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+        align-items: center;
+}
+
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+
+    background-color: #fff;
+    border-radius: 25px;;
+}
+
+/* create default button and input styles
+    add hover effect to buttons */
+button, input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f37b3f;
+}
+
+#message {
+    background-color: #f26a2e;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    border-radius: 0.25rem;
+    display: none;
+}
+li {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+
+#result {
+    display: none;
+}

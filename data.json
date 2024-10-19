@@ -1,0 +1,26 @@
+[
+  {
+    "num1": 1,
+    "num2": 2,
+    "operation": "add",
+    "result": 3
+  },
+  {
+    "num1": 22,
+    "num2": 333,
+    "operation": "add",
+    "result": 355
+  },
+  {
+    "num1": "22",
+    "num2": "22",
+    "operation": "add",
+    "result": 44
+  },
+  {
+    "num1": "44",
+    "num2": "3",
+    "operation": "add",
+    "result": 47
+  }
+]
