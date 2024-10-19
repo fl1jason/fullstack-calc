@@ -30,7 +30,7 @@ git clone git@github.com:fl1jason/fullstack-calc.git
 
 ```
 
-2. \*\*Navigate to the Project Folder:
+2. **Navigate to the Project Folder**:
 
 ```bash
 cd fullstack-calc
@@ -43,7 +43,7 @@ cd fullstack-calc
 npm install
 ```
 
-4. \*\*Run the Application:
+4. **Run the Application**:
    Use the following command to launch the application in development mode:
 
 ```bash
